@@ -16,7 +16,7 @@ public class Respawn : MonoBehaviour {
 			this.transform.position =(new Vector3(0,5,0));
 			this.rigidbody.velocity = Vector3.zero;
 			this.transform.GetComponent<Gravity>().gravityDirection = Vector3.down;
-			this.transform.GetComponent<Gravity>().rotationFromGravity = Quaternion.Euler(Vector3.Cross(this.transform.GetComponent<Gravity>().gravityDirection,Vector3.zero));
+			//this.transform.GetComponent<Gravity>().rotationFromGravity = Quaternion.Euler(Vector3.Cross(this.transform.GetComponent<Gravity>().gravityDirection,Vector3.zero));
 		}
 
 	}

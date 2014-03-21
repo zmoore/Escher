@@ -6,116 +6,65 @@ public class PlayerControl : MonoBehaviour {
 	public float walkSpeed;
 	public float jumpStrength;
 	public float distToGround;
-	private Gravity playerGravity;
 	public Transform laser;
 	public bool shooting;
 
 	public AudioClip laserSound;
 	public AudioClip walkSound;
-
+	
+	private Gravity playerGravity;
+	private Transform playerCamera;
 
 	Vector3 gravityDirection;
-	Vector3 movement = new Vector3(0,0,0);
 	Quaternion bodyRotation;
 	// Use this for initialization
 	void Start () {
-		playerGravity = this.transform.GetComponent < Gravity> ();
-
+		playerGravity = this.transform.GetComponent <Gravity> ();
+		playerCamera = transform.Find("Camera");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+		gravityDirection = playerGravity.gravityDirection;
 
 		if (Input.GetMouseButtonDown (0)) {
 			audio.PlayOneShot(laserSound);
 			GameObject.Instantiate(laser);
 		}
 
-		movement = new Vector3 (0, 0, 0);
-
 		bodyRotation = transform.Find("PlayerModel").Find("Body").rotation;
 
-		if (Input.GetKey("d")&& isGrounded()&&Mathf.Abs(this.rigidbody.velocity.x)<8f&&Mathf.Abs(this.rigidbody.velocity.y)<8f&&Mathf.Abs(this.rigidbody.velocity.z)<8f) {
-			this.rigidbody.velocity += (bodyRotation*Vector3.forward*walkSpeed)*Time.deltaTime;
-		}
-		else if(Input.GetKey("d")&& !isGrounded()) {
-			this.rigidbody.velocity += (bodyRotation*Vector3.forward*walkSpeed/15f)*Time.deltaTime;
+		float speed;
+
+		if (isGrounded()){
+			speed = Time.deltaTime*walkSpeed;
+			
+			this.rigidbody.velocity += Input.GetAxis("Jump")*jumpStrength*(-gravityDirection);
+		}else{
+			speed = Time.deltaTime*walkSpeed/15f;
 		}
 
-		if (Input.GetKey("e")&& isGrounded()&&Mathf.Abs(this.rigidbody.velocity.x)<8f&&Mathf.Abs(this.rigidbody.velocity.y)<8f&&Mathf.Abs(this.rigidbody.velocity.z)<8f) {	
-			this.rigidbody.velocity += (bodyRotation*Vector3.back*walkSpeed)*Time.deltaTime;
-		}
-		else if(Input.GetKey("e")&& !isGrounded()) {
-			this.rigidbody.velocity += (bodyRotation*Vector3.back*walkSpeed/15f)*Time.deltaTime;
-		}
-
-		if (Input.GetKey("s")&& isGrounded()&&Mathf.Abs(this.rigidbody.velocity.x)<8f&&Mathf.Abs(this.rigidbody.velocity.y)<8f&&Mathf.Abs(this.rigidbody.velocity.z)<8f) {	
-			this.rigidbody.velocity += (bodyRotation*Vector3.left*walkSpeed)*Time.deltaTime;
-		}
-		else if(Input.GetKey("s")&& !isGrounded()) {
-			this.rigidbody.velocity += (bodyRotation*Vector3.left*walkSpeed/15f)*Time.deltaTime;
-		}
-
-		if (Input.GetKey("f")&& isGrounded()&&Mathf.Abs(this.rigidbody.velocity.x)<8f&&Mathf.Abs(this.rigidbody.velocity.y)<8f&&Mathf.Abs(this.rigidbody.velocity.z)<8f) {	
-			this.rigidbody.velocity += (bodyRotation*Vector3.right*walkSpeed)*Time.deltaTime;
-		}
-		else if(Input.GetKey("f")&& !isGrounded()) {
-			this.rigidbody.velocity += (bodyRotation*Vector3.right*walkSpeed/15f)*Time.deltaTime;
-		}
-
-		if (Input.GetKey("space")&& isGrounded()) {
-			gravityDirection = transform.GetComponent<Gravity>().gravityDirection;
-			this.rigidbody.velocity += jumpStrength*(-gravityDirection)*Time.deltaTime;
-		}
-
-
+		rigidbody.velocity +=
+			Input.GetAxis("Horizontal") * speed * playerCamera.right + //Left/Right
+			Input.GetAxis("Vertical") * speed * playerCamera.forward; //Forward/backward
 
 		if (Input.GetKeyDown(KeyCode.LeftControl)) {
 
-			Vector3 rotation = transform.Find("Camera").forward;
+			Vector3 facing = transform.Find("Camera").forward;
 
-			Vector3.Normalize(rotation);
+			float
+				absX = Mathf.Abs (facing.x),
+				absY = Mathf.Abs (facing.y),
+				absZ = Mathf.Abs (facing.z);
 
-			if(((rotation.x<=(Mathf.Sqrt(2f)/2f))&&(rotation.x>=-(Mathf.Sqrt(2f)/2f))) && ((rotation.z<=1f)&&(rotation.z>=(Mathf.Sqrt(2f)/2f))) && (Mathf.Abs (rotation.x)>Mathf.Abs(rotation.y) || Mathf.Abs(rotation.z)>Mathf.Abs(rotation.y))) {
-				Debug.Log ("Forward");
-				playerGravity.gravityDirection = Vector3.forward;
-				playerGravity.rotationFromGravity = Quaternion.Euler(Vector3.Cross(playerGravity.gravityDirection,Vector3.up)*90);
+			if(absX>absY&&absX>absZ){
+				playerGravity.gravityDirection = Mathf.Sign(facing.x)*Vector3.right;
+			}else if(absY>absX&&absY>absZ){
+				playerGravity.gravityDirection = Mathf.Sign(facing.y)*Vector3.up;
+			}else{
+				playerGravity.gravityDirection = Mathf.Sign(facing.z)*Vector3.forward;
 			}
-
-			else if( ((rotation.x<=(Mathf.Sqrt(2f)/2f))&&(rotation.x>=-(Mathf.Sqrt(2f)/2f))) && ((rotation.z<=-Mathf.Sqrt(2f)/2f))&&(rotation.z>=(-1f)) && (Mathf.Abs (rotation.x)>Mathf.Abs(rotation.y) || Mathf.Abs(rotation.z)>Mathf.Abs(rotation.y))) {
-				Debug.Log ("Back");
-				playerGravity.gravityDirection = Vector3.back;
-				playerGravity.rotationFromGravity = Quaternion.Euler(Vector3.Cross(playerGravity.gravityDirection,Vector3.up)*90);
-			}
-
-			else if( ((rotation.x<=-(Mathf.Sqrt(2f)/2f))&&(rotation.x>=-1f))  && (((rotation.z<=(Mathf.Sqrt(2f)/2f))&&(rotation.z>=-(Mathf.Sqrt(2f)/2f)))) && (Mathf.Abs (rotation.x)>Mathf.Abs(rotation.y) || Mathf.Abs(rotation.z)>Mathf.Abs(rotation.y))) {
-				Debug.Log ("Left");
-				playerGravity.gravityDirection = Vector3.left;
-				playerGravity.rotationFromGravity = Quaternion.Euler(Vector3.Cross(playerGravity.gravityDirection,Vector3.up)*90);
-			}
-
-			else if(  ((rotation.x<=1f)&&(rotation.x>=(Mathf.Sqrt(2f)/2f))) && (((rotation.z<=(Mathf.Sqrt(2f)/2f))&&(rotation.z>=-(Mathf.Sqrt(2f)/2f))))&& (Mathf.Abs (rotation.x)>Mathf.Abs(rotation.y) || Mathf.Abs(rotation.z)>Mathf.Abs(rotation.y))) {
-				Debug.Log ("Right");
-				playerGravity.gravityDirection = Vector3.right;
-				playerGravity.rotationFromGravity = Quaternion.Euler(Vector3.Cross(playerGravity.gravityDirection,Vector3.up)*90);
-			}
-
-			else if( rotation.y > Mathf.Sqrt(2f)/2f){
-				Debug.Log("Up");
-				playerGravity.gravityDirection = Vector3.up;
-				playerGravity.rotationFromGravity = Quaternion.Euler(Vector3.Cross(playerGravity.gravityDirection,Vector3.back)*180);
-			}
-
-			else if(rotation.y < -Mathf.Sqrt(2f)/2f) {
-				Debug.Log("Down");
-				playerGravity.gravityDirection = Vector3.down;
-				playerGravity.rotationFromGravity = Quaternion.Euler(Vector3.Cross(playerGravity.gravityDirection,Vector3.zero));
-
-			}
-
-
-
+			Debug.Log(playerGravity.gravityDirection);
 
 		}
 
@@ -123,7 +72,10 @@ public class PlayerControl : MonoBehaviour {
 	}
 
 	public bool isGrounded() {
-		gravityDirection = transform.GetComponent<Gravity>().gravityDirection;
+		return playerGravity.isGrounded();
+		/*
+		//done once at the begining of Update()
+		//gravityDirection = transform.GetComponent<Gravity>().gravityDirection;
 
 		if (gravityDirection == Vector3.down) {
 			distToGround = collider.bounds.extents.y;
@@ -132,6 +84,6 @@ public class PlayerControl : MonoBehaviour {
 			distToGround = collider.bounds.extents.z;
 		}
 
-		return Physics.Raycast(transform.position, gravityDirection, distToGround + 0.1f);
+		return Physics.Raycast(transform.position, gravityDirection, distToGround + 0.1f);*/
 	}
 }

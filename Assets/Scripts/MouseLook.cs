@@ -22,6 +22,7 @@ public class MouseLook : MonoBehaviour {
 
 	void Update ()
 	{
+		Screen.lockCursor = true;
 		if (axes == RotationAxes.MouseXAndY)
 		{
 			float rotationX = theCamera.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;
@@ -38,9 +39,9 @@ public class MouseLook : MonoBehaviour {
 		}
 
 	}
-	
+
+
 	void Start () {
-		Screen.lockCursor = true;
 		theCamera = transform.Find("Camera");
 		theHead = transform.Find ("PlayerModel").Find("Head");
 		theBody = transform.Find("PlayerModel").Find("Body");
