@@ -9,7 +9,7 @@ public class Gravity : MonoBehaviour {
 		set{
 			originalRotation = transform.rotation;
 			Transform clone = (Transform)Instantiate(transform);
-			clone.Rotate(Vector3.Cross(-_gravityDirection,value),Vector3.Angle(-_gravityDirection,value));
+			clone.Rotate(Vector3.Cross(_gravityDirection,value),Vector3.Angle(-_gravityDirection,value));
 			targetRotation = clone.rotation;
 			Destroy(clone.gameObject);
 			turned = 0;

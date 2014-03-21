@@ -57,6 +57,8 @@ public class PlayerControl : MonoBehaviour {
 				absY = Mathf.Abs (facing.y),
 				absZ = Mathf.Abs (facing.z);
 
+			//Debug.Log("X: " + absX + "         Y:" + absY + "           Z:" + absZ);
+
 			if(absX>absY&&absX>absZ){
 				playerGravity.gravityDirection = Mathf.Sign(facing.x)*Vector3.right;
 			}else if(absY>absX&&absY>absZ){
@@ -64,7 +66,7 @@ public class PlayerControl : MonoBehaviour {
 			}else{
 				playerGravity.gravityDirection = Mathf.Sign(facing.z)*Vector3.forward;
 			}
-			Debug.Log(playerGravity.gravityDirection);
+			//Debug.Log(playerGravity.gravityDirection);
 
 		}
 
