@@ -7,10 +7,10 @@ Direct3D:
     VRAM:     2030 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\KERRY\Documents\Unity3D\Relativity\Builds\0.0.2\build0.0.2_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\KERRY\Documents\Unity3D\Relativity\Builds\0.0.2\build0.0.2_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\KERRY\Documents\Unity3D\Relativity\Builds\0.0.2\build0.0.2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\KERRY\Documents\Unity3D\Relativity\Builds\0.0.2\build0.0.2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\KERRY\Documents\GitHub\Escher\Builds\0.0.2\build0.0.2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\GitHub\Escher\Builds\0.0.2\build0.0.2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\KERRY\Documents\GitHub\Escher\Builds\0.0.2\build0.0.2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\GitHub\Escher\Builds\0.0.2\build0.0.2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 - Completed reload, in  0.049 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
@@ -22,6 +22,48 @@ PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Sc
  
 (Filename: C Line: 0)
 
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
 Down
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -64,6 +106,41 @@ PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Sc
  
 (Filename: C Line: 0)
 
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
 Down
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -92,20 +169,6 @@ PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Sc
  
 (Filename: C Line: 0)
 
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
 Forward
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -113,80 +176,10 @@ PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Sc
  
 (Filename: C Line: 0)
 
-Back
+Down
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Forward
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Right
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
  
 (Filename: C Line: 0)
 
@@ -197,339 +190,185 @@ PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Sc
  
 (Filename: C Line: 0)
 
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Left
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:93)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Left
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:93)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Left
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:93)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
 Right
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Down
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Down
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
- 
-(Filename: C Line: 0)
-
-Forward
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
- 
-(Filename: C Line: 0)
-
-Down
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
- 
-(Filename: C Line: 0)
-
-Forward
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Right
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
- 
-(Filename: C Line: 0)
-
-Forward
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Right
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Forward
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Forward
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
- 
-(Filename: C Line: 0)
-
-Down
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Down
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Down
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
- 
-(Filename: C Line: 0)
-
-Forward
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
- 
-(Filename: C Line: 0)
-
-Down
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
- 
-(Filename: C Line: 0)
-
-Back
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
- 
-(Filename: C Line: 0)
-
-Up
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
  
 (Filename: C Line: 0)
 
@@ -554,6 +393,48 @@ PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Sc
  
 (Filename: C Line: 0)
 
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
 Down
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -572,6 +453,580 @@ Forward
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Left
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:93)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Right
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Left
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:93)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Right
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Right
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Right
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Right
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Back
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:87)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Down
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:111)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Right
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
+ 
+(Filename: C Line: 0)
+
+Right
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:99)
+ 
+(Filename: C Line: 0)
+
+Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:81)
+ 
+(Filename: C Line: 0)
+
+Up
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Relativity\Assets\Scripts\PlayerControl.cs:105)
  
 (Filename: C Line: 0)
 
